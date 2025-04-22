@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade and scale-in animation utility (already in tailwind config) */
+.animate-fade-in {
+  animation: fade-in 0.7s both;
+}
+.animate-scale-in {
+  animation: scale-in 0.3s both;
+}
